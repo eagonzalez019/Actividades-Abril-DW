@@ -1,12 +1,58 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-<title>Musical Abril</title>
+<!--Doctype es una sentencia que indica que voy a trabjar con un documento de HTML-->
+
+<html lang="es"> <!--Aqui inicia mi página con la etiqueta de html-->
+<head> <!-- Aqui en el head esta todo lo que no es visible en la página pero lo hace funcional-->
+    <!--Con los metadatos puedo colocar caracteres especial, dar indormación al CEO para pocionamiento web-->
+  <meta charset="UTF-8">
+  <meta name="description" content="Musical Sabrina Carpenter">
+  <meta name="author" content="Abril Gonzalez Cervantes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+<title>Musical Sabrina Crpenter</title>
 </head>
 <body>
 
-<h1>Musical Abril</h1>
-<p>Escucha mis 3 canciones de Sabrina Carpenter</p>
+  <div class="container-musical">
+    <img src="images-2.jpg" alt="Imagen de musical app" class="imagen-portada">
+
+    <h1>Musical Abril</h1>
+    <p class="pmusical">Musical Sabrina Carpenter</p>
+    
+     <div class="lista-canciones">
+        <!--CANCION 1-->
+        <div class="cancion1">
+             <p>📞Busy Woman </p>
+             <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 1 -->
+                    <source src="Busy woman.mp3"audio/mpeg">
+             </audio>
+          </div>
+
+
+          <!--CANCION 2-->
+        <div class="cancion1">
+             <p>🍸 Juno </p>
+             <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 2 -->
+                    <source src="Juno.mp3"audio/mpeg">
+             </audio>
+          </div>
+
+           <!--CANCION 3-->
+        <div class="cancion1">
+             <p>💌Because I liked a boy </p>
+             <audio controls class="audio-player">
+                    <!-- Mp3 de prueba 3 -->
+                    <source src="Like a boy.mp3"audio/mpeg">
+             </audio>
+          </div>
+        </div>
+        
+
+    </div>
 
 </body>
 </html>
